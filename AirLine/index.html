@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/style.css" rel="stylesheet">
+    <title>AirLine</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="nav">
+                <div>
+                    <a href="index.html">
+                        <img class="logo" src="img/logo/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <ul class="nav-navi">
+                    <li>
+                        <a href="index.html#aboutUs">О нас</a>
+                    </li>
+                    <li>
+                        <a href="index.html#search">Поиск</a>
+                    </li>
+                    <li>
+                        <a href="index.html#feedback">Отзывы</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="main-goal">
+        <div class="container">
+            <div class="goal">
+                <h1>Наша цель <br>Обеспечить лучший перелет!</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="how-to-book mt-100">
+        <div class="container">
+            <h1>Как забронировать билет?</h1>
+            <div class="slider">
+                <div class="slides">
+                    <img src="img/slides/1.svg" alt="slide">
+                    <img src="img/slides/2.svg" alt="slide">
+                    <img src="img/slides/3.svg" alt="slide">
+                    <img src="img/slides/4.svg" alt="slide">
+                </div>
+                <button class="prev">Назад</button>
+                <button class="next">Вперед</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="aboutUs mt-100" id="aboutUs">
+        <div class="container">
+            <h1>О нас</h1>
+            <p>Мы самая крутая авиакомпания во вселенной и нам попросту нет равных. Хотите верьте а хотите нет вам
+                придется это сделать иначе мы придем к вам домой.</p>
+        </div>
+    </div>
+
+    <div class="search mt-100" id="search">
+        <div class="container">
+            <h1>Поиск билетов</h1>
+            <form class="search-form" action="search.html" method="get">
+                <div class="date-out">
+                    <label for="date-out">Дата вылета</label>
+                    <input type="date" name="date-out" id="date-in" required>
+                </div>
+                <div class="date-in">
+                    <label for="date-out">Дата прибытия</label>
+                    <input type="date" name="date-in" id="date-in" required>
+                </div>
+
+                <input type="text" placeholder="Страна отправления" name="country-out" id="country-out" required>
+                <input type="text" placeholder="Страна прибытия" name="country-in" id="country-in" required>
+                <button type="submit">Поиск</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="feedback mt-100" id="feedback">
+        <div class="container">
+            <h1>Отзывы</h1>
+            <div class="feedback-item">
+                <img src="img/feedback/1.png" alt="feedback-image">
+                <p>Очень классный перелет всем спасибо за эту возможность.</p>
+            </div>
+            <div class="feedback-item">
+                <img src="img/feedback/2.jpg" alt="feedback-image">
+                <p>Очень классный перелет всем спасибо за эту возможность.</p>
+            </div>
+            <div class="feedback-item">
+                <img src="img/feedback/3.jpg" alt="feedback-image">
+                <p>Очень классный перелет всем спасибо за эту возможность.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="subscription mt-100" id="subscription">
+        <div class="container">
+            <h1>Подписка на рассылку</h1>
+            <form class="subscription-form" action="index.html" method="get">
+                <input type="email" placeholder="Email" name="email" required>
+                <button type="submit">Подписаться</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="mt-100">
+        <div class="container">
+            <div class="tel">
+                <a href="tel:+8911 923 82 84">+8911 923 82 84</a>
+            </div>
+            <div class="nav-footer">
+                <ul class="nav-navi">
+                    <li>
+                        <a href="index.html#aboutUs">О нас</a>
+                    </li>
+                    <li>
+                        <a href="index.html#search">Поиск</a>
+                    </li>
+                    <li>
+                        <a href="index.html#feedback">Отзывы</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

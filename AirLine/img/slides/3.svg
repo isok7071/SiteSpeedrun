@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 152.95 72.82">
+  <title>3</title>
+  <g id="Слой_2" data-name="Слой 2">
+    <g id="Слой_1-2" data-name="Слой 1">
+      <g>
+        <rect x="0.8" y="0.8" width="151.35" height="55.26" style="fill: #fff;stroke: #2379c8;stroke-miterlimit: 10;stroke-width: 1.5986182750611184px"/>
+        <text transform="translate(34.71 69.82)" style="font-size: 12px;font-family: MyriadPro-Regular, Myriad Pro">Выбер<tspan x="33.66" y="0" style="letter-spacing: -0.0030110677083333335em">и</tspan><tspan x="40.27" y="0" style="letter-spacing: -0.02001953125em">т</tspan><tspan x="44.96" y="0" style="letter-spacing: 0.000040690104166666664em">е ме</tspan><tspan x="67.2" y="0" style="letter-spacing: 0.0159912109375em">с</tspan><tspan x="72.77" y="0" style="letter-spacing: -0.02001953125em">т</tspan><tspan x="77.46" y="0">о</tspan></text>
+        <text transform="translate(20.19 26.58)" style="font-size: 12px;font-family: MyriadPro-Regular, Myriad Pro">№ 232</text>
+        <text transform="translate(20.19 43.17)" style="font-size: 12px;font-family: MyriadPro-Regular, Myriad Pro">№ 234</text>
+        <rect x="59.55" y="19.35" width="6" height="6" style="fill: none;stroke: #201600;stroke-miterlimit: 10"/>
+        <path d="M65.55,42.2h-6v-6h6v6Z" style="fill: none;stroke: #201600;stroke-miterlimit: 10"/>
+        <polyline points="60.34 40.48 62.19 41.5 65.15 38.36" style="fill: none;stroke: #2379c8;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+    </g>
+  </g>
+</svg>

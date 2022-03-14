@@ -1,0 +1,289 @@
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+@font-face {
+  font-family: "OpenSans Regular";
+  src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "OpenSans Bold";
+  src: url("../fonts/Open_Sans/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "GardensC";
+  src: url("../fonts/GardensC.otf");
+}
+.mt-100 {
+  margin-top: 100px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+.container {
+  margin: 0 auto;
+  width: 1110px;
+  max-width: 100%;
+}
+
+h1 {
+  font-family: "OpenSans Bold";
+  font-size: 36px;
+  text-align: center;
+}
+
+p {
+  font-family: "OpenSans Regular";
+  font-size: 18px;
+}
+a {
+  transition: 0.25s;
+  text-decoration: none;
+}
+a:hover {
+  color: #2379c8 !important;
+  transition: 0.25s;
+}
+
+.logo {
+  width: 160px;
+  max-width: 100%;
+}
+header .nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-navi {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  max-width: 100%;
+}
+
+.nav-navi li {
+  list-style: none;
+}
+
+.nav-navi a {
+  font-size: 24px;
+  font-family: "OpenSans Bold";
+  color: black;
+}
+
+.main-goal {
+  background-image: url("../img/budapest.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  background-repeat: no-repeat;
+}
+
+.main-goal h1 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+.goal {
+  padding-top: 200px;
+}
+
+.slider {
+  margin: 0 auto;
+  text-align: center;
+  height: 200px;
+  max-height: 300px;
+}
+.slider .slides img:first-child {
+  display: block;
+}
+.slides img {
+  margin: 0 auto;
+  padding-top: 30px;
+  max-width: 300px;
+  display: none;
+}
+.slider button {
+  font-size: 18px;
+  width: 100px;
+  margin-top: 20px;
+}
+.slider button:first-of-type {
+  margin-right: 40px;
+}
+button {
+  cursor: pointer;
+  transition: 0.25s;
+  background-color: #2379c8;
+  color: white;
+  border: none;
+  font-family: "OpenSans Regular";
+}
+button:hover {
+  box-shadow: 0 0 13px 1px #2379c8;
+}
+
+.aboutUs {
+  text-align: center;
+}
+
+.search-form label {
+  font-family: "OpenSans Regular";
+  font-size: 18px;
+}
+.search-form {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.date-out {
+  display: flex;
+  flex-direction: column;
+}
+.date-in {
+  display: flex;
+  flex-direction: column;
+}
+.search-form input {
+  width: 200px;
+  height: 30px;
+  font-family: "OpenSans Regular";
+  font-size: 18px;
+}
+.search-form button {
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.feedback-item {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.feedback-item img {
+  width: 300px;
+  height: 300px;
+  max-width: 100%;
+  padding-right: 25px;
+}
+.feedback-item p {
+  font-size: 24px;
+}
+
+.subscription {
+  text-align: center;
+}
+
+.subscription input,
+button {
+  width: 200px;
+  height: 30px;
+  font-size: 18px;
+}
+
+footer {
+  background-color: black;
+  height: 100px;
+}
+footer a {
+  color: white;
+}
+footer .container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .nav-navi a {
+  color: white;
+}
+
+footer .tel {
+  font-size: 24px;
+  font-family: "OpenSans Regular";
+}
+
+/*search.html*/
+
+.search-item {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.search-item button {
+  font-size: 24px;
+  font-family: "OpenSans Bold";
+  height: 250px;
+  max-height: 100%;
+  background-color: #2379c8;
+  border-left: 1px solid black;
+}
+
+.search-item p {
+  font-family: "OpenSans Bold";
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+.search-item span {
+  font-family: "OpenSans Regular";
+}
+
+.search-item .price {
+  color: #2379c8;
+}
+
+/*seat.html*/
+
+.seats-button {
+  margin: 0 auto;
+  margin-top: 50px;
+  display: block;
+}
+.seats-list ul li {
+  font-size: 20px;
+  font-family: "OpenSans Bold";
+}
+
+/*booking.html*/
+
+.booking-item-text p {
+  font-family: "OpenSans Bold";
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 5px;
+  padding-left: 15px;
+}
+
+.booking-item-text span {
+  font-family: "OpenSans Regular";
+}
+
+.booking-item-text .price {
+  color: #2379c8;
+  padding-top: 20px;
+}
+
+.booking-button {
+  margin: 0 auto;
+  margin-top: 50px;
+  display: block;
+}
