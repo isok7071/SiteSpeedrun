@@ -1,0 +1,280 @@
+@font-face {
+    font-family: "OpenSans Regular";
+    src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+@font-face {
+    font-family: "OpenSans Bold";
+    src: url("../fonts/Open_Sans/OpenSans-Bold.ttf");
+}
+
+html,body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.mt-100{
+    margin-top: 100px;
+}
+p{
+    font-family: "OpenSans Regular";
+    font-size: 18px;
+}
+
+h1{
+    font-size: 36px;
+    font-family: "OpenSans Bold";
+    text-align: center;
+}
+
+a{  
+    transition: .25s;
+    text-decoration: none;
+}
+a:hover {  
+    transition: .25s;
+    color: #dc8653 !important;
+}
+button {
+    transition: .25s;
+    border: 0;
+    background-color: #dc8653;
+    color: white;
+    font-family: "OpenSans Regular";
+    font-size: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: .25s;
+    box-shadow: 0 0 13px 1px #dc8653;
+}
+
+.container{
+    width: 1110px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 270px;
+    height: 56px;
+    max-width: 100%;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.nav-list{
+    width: 540px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list li{
+    list-style: none;
+}
+.nav-list li a{
+    font-size: 24px;
+    font-family: "OpenSans Regular";
+    color: black;
+}
+
+.bg{
+    background-image:url("../img/bg.jpg");
+    height: 700px;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.bg .container{
+    height: inherit;
+}
+.bg h1{
+    font-size: 48px !important;
+    color: white;
+}
+
+.slider{
+    margin:0 auto;
+    text-align: center;
+}
+
+.slides img:first-child{
+    display: block;
+    opacity: 1;
+    height: 250px;
+}
+.slides img{
+    transition: .3s;
+    margin: 0 auto;
+    height: 0;
+}
+.slider button{
+    margin-top: 20px;
+    padding: 10px;
+}
+.about-us{
+    text-align: center;
+}
+
+.search-form{
+    align-items: flex-end;
+    flex-wrap: wrap;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.form-elements{
+    font-size: 18px;
+    font-family: "OpenSans Regular";
+    display: flex;
+    flex-direction: column;
+}
+
+.form-elements input,select{
+    width: 200px;
+    height: 30px;
+}
+.search-form button{
+    width: 100px;
+    height: 30px;
+}
+
+.sale-item{ 
+    display: flex;
+    margin:0 auto;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.sale-item img{
+    width: 250px;
+    height: min-content;
+    max-width: 100%;
+    margin-right: 40px;
+}
+
+.sale-item h2{
+    font-family: "OpenSans Bold";
+    font-size: 24px;
+}
+
+.sub-form{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.sub-form input{
+    margin-right: 40px;
+    font-size: 18px;
+    width: 200px;
+    height: 30px;
+    font-family: "OpenSans Regular";
+}
+.sub-form button{
+    height: 30px;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+}
+footer .container{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .container a,nav{
+    color: white;
+    font-family: "OpenSans Regular";
+    font-size: 24px;
+}
+
+
+/*search.html*/
+
+.ticket{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.ticket .text{
+    margin:30px;
+}
+.ticket .text p{
+    font-size: 20px;
+    font-family: "OpenSans Bold";
+    padding: 0;
+    padding-bottom: 5px;
+    margin:0;
+}
+
+.price{
+    color: #dc8653;
+}
+
+
+.ticket-form button{
+    font-family: "OpenSans Bold";
+    font-size: 36px;
+    padding: 25px;
+    min-height: 300px;
+    border-left: 1px solid black;
+}
+
+/*order.html*/
+.ticket-info{
+    margin-bottom: 30px;
+}
+.order h2{
+    font-family: "OpenSans Bold";
+    font-size: 24px;
+}
+.order p{
+    padding: 0;
+    margin:0;
+    margin-bottom: 5px;
+}
+.order .price{
+    font-family: "OpenSans Bold";
+}
+
+.order-button{
+    max-width: 100%;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+/*seat.html*/
+.seat h2{
+    font-family: "OpenSans Bold";
+    font-size: 24px;
+}
+
+.seat li{
+    font-size: 18px;
+    font-family: "OpenSans Bold";
+}
+.seat {
+    display: flex;
+    flex-wrap: wrap;
+}
+.seat-first{
+    margin-right: 30px;
+}
+.seat-form button{
+    margin-top: 100px;
+}

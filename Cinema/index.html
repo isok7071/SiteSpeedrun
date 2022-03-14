@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/style.css" rel="stylesheet">
+    <title>StarCinema</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo/logo.svg" alt="logo">
+                </a>
+            </div>
+            <div class="nav">
+                <ul class="nav-list">
+                    <li>
+                        <a href="index.html#sales">Акции</a>
+                    </li>
+                    <li>
+                        <a href="index.html#search">Поиск</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Личный кабинет</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bg">
+            <div class="container">
+                <h1>Наша цель - сделать поход в кино
+                    комфортным и приятным и стать
+                    лучшим билетным оператором
+                    федерального масштаба</h1>
+            </div>
+        </div>
+    </header>
+
+    <div class="container mt-100">
+        <div class="slider">
+            <h1>Накопление баллов</h1>
+            <div class="slides">
+                <img src="img/slider/1.svg" alt="slide">
+                <img src="img/slider/2.svg" alt="slide">
+                <img src="img/slider/3.svg" alt="slide">
+            </div>
+            <button class="prev">Назад</button>
+            <button class="next">Вперед</button>
+        </div>
+    </div>
+
+    <div class="about-us mt-100">
+        <div class="container">
+            <h1>Почему нам стоит доверять</h1>
+            <p>Мы находимся в сфере продажи билетов в кино уже более 5 лет, и нам доверяют свой выбор уже свеше 15000
+                людей, что говорит о высоком качестве услуг, которые мы оказываем.</p>
+        </div>
+    </div>
+
+    <div class="search" id="search">
+        <div class="container">
+            <h1>
+                Поиск
+            </h1>
+            <form class="search-form" method="get" action="search.html">
+                <div class="form-elements date-start">
+                    <label for="date-start">Дата от</label>
+                    <input required type="date" id="date-start" name="date-start">
+                </div>
+                <div class=" form-elements date-end">
+                    <label for="date-end">Дата до</label>
+                    <input required type="date" id="date-end" name="date-start">
+                </div>
+                <div class="form-elements select-date">
+                    <label for="select-genre">Жанр</label>
+                    <select required id="select-genre">
+                        <option value="0">
+                            Выберите жанр
+                        </option>
+                        <option value="комедия">
+                            комедия
+                        </option>
+                        <option value="драма">
+                            драма
+                        </option>
+                        <option value="боевик">
+                            боевик
+                        </option>
+                        <option value="фильм ужасов">
+                            фильм ужасов
+                        </option>
+                        <option value="исторический">
+                            исторический
+                        </option>
+                        <option value="вестерн">
+                            вестерн
+                        </option>
+                        <option value="фантастика">
+                            фантастика
+                        </option>
+                        <option value="трагикомедия">
+                            трагикомедия
+                        </option>
+                        <option value="триллер">
+                            триллер
+                        </option>
+                    </select>
+                </div>
+                <button type="submit">Поиск</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="sales mt-100" id="sales">
+        <div class="container">
+            <h1>Акции</h1>
+            <div class="sale-item">
+                <img src="img/sales/1.jpg" alt="sale">
+                <div class="sale-text">
+                    <h2>Меняем билеты на скидку!</h2>
+                    <p>1. Сходи на киносеанс<br>
+                        2. Сохрани билет<br>
+                        3. Предъяви билет на кассе<br>
+                        4. Получи скидку 10% на следующую покупку</p>
+                    <button>Просмотреть</button>
+                </div>
+            </div>
+            <div class="sale-item">
+                <img src="img/sales/2.png" alt="sale">
+                <div class="sale-text">
+                    <h2>Кэшбэк 5%</h2>
+                    <p>Вернем 5% от стоимости при заказе билета в нашем мобильном приложении!</p>
+                    <button>Просмотреть</button>
+                </div>
+            </div>
+            <div class="sale-item">
+                <img src="img/sales/3.png" alt="sale">
+                <div class="sale-text">
+                    <h2>Покупай больше - плати меньше</h2>
+                    <p>При покупке четырех билетов в одном чеке - скидка 5%</p>
+                    <button>Просмотреть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-subscription mt-100">
+        <div class="container">
+            <h1>
+                Подписка на закрытые акции
+            </h1>
+            <form action="index.html" method="get" class="sub-form">
+                <input type="email" placeholder="Email">
+                <button type="submit">Подписаться</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="mt-100">
+        <div class="container">
+            <div class="left-text">
+                <a href="tel:88005555555">8 (800) 555-55-55</a>
+            </div>
+            <div class="nav">
+                <ul class="nav-list">
+                    <li>
+                        <a href="index.html#sales">Акции</a>
+                    </li>
+                    <li>
+                        <a href="index.html#search">Поиск</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Личный кабинет</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
