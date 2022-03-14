@@ -1,0 +1,10 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <title>1</title>
+  <rect width="300" height="200" style="fill: #fff;stroke: #201600;stroke-miterlimit: 10"/>
+  <rect x="28.6" y="40.35" width="100.4" height="45.59" style="fill: #4060b2"/>
+  <rect x="163.18" y="40.35" width="100.4" height="45.59" style="fill: none;stroke: #201600;stroke-miterlimit: 10;stroke-width: 0.6738369975372536px"/>
+  <rect x="163.18" y="100" width="100.4" height="45.59" style="fill: #4060b2;stroke: #201600;stroke-miterlimit: 10;stroke-width: 0.6738369975372536px"/>
+  <rect x="28.6" y="100" width="100.4" height="45.59" style="fill: none;stroke: #201600;stroke-miterlimit: 10;stroke-width: 0.6738369975372536px"/>
+  <text transform="translate(47.65 180.43)" style="font-size: 16px;font-family: OpenSans-Regular, Open Sans">Выберите зоны маршрута</text>
+  <polygon points="238.23 135.78 248.78 158.29 262.11 142.69 238.23 135.78" style="fill: #201600;stroke: #201600;stroke-miterlimit: 10"/>
+</svg>

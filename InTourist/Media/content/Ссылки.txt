@@ -1,0 +1,6 @@
+Главнаястраница - LandingPage: http://index
+Возврат:http://return
+Обратная связь:http://feedback
+Страница с результатами поиска маршрутов: http://search
+Страница выбора зон для посещения: http://seat
+Страница бронирования: http://booking

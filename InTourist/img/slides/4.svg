@@ -1,0 +1,8 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <title>1</title>
+  <rect width="300" height="200" style="fill: #fff;stroke: #201600;stroke-miterlimit: 10"/>
+  <rect x="75.04" y="77.21" width="149.91" height="45.59" style="fill: #4060b2"/>
+  <text transform="translate(71.18 180.43)" style="font-size: 16px;font-family: OpenSans-Regular, Open Sans">Забронируйте заказ</text>
+  <polygon points="214.93 115.89 225.49 138.4 238.82 122.79 214.93 115.89" style="fill: #201600;stroke: #201600;stroke-miterlimit: 10"/>
+  <text transform="translate(89.05 104.69)" style="font-size: 16px;fill: #fff;font-family: OpenSans-Regular, Open Sans">Забронировать</text>
+</svg>

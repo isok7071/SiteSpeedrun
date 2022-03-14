@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>InTourist</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="nav-panel">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo/logo.svg" alt="logo">
+                </a>
+            </div>
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html#aboutUs">О нас</a>
+                </li>
+                <li>
+                    <a href="index.html#search">Поиск</a>
+                </li>
+                <li>
+                    <a href="index.html#feedback">Отзывы</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="bg">
+        <div class="container">
+            <h1>Наш девиз<br>
+                Исполнить мечты просто!</h1>
+        </div>
+    </div>
+</header>
+
+<div class="slider mt-100">
+    <div class="container">
+        <h1>Как забронировать маршрут</h1>
+        <div class="slides">
+            <img src="img/slides/1.svg" alt="slide">
+            <img src="img/slides/2.svg" alt="slide">
+            <img src="img/slides/3.svg" alt="slide">
+            <img src="img/slides/4.svg" alt="slide">
+        </div>
+        <button class="prev">Назад</button>
+        <button class="next">Вперед</button>
+    </div>
+</div>
+
+<div class="about-us mt-100" id="aboutUs">
+    <div class="container">
+        <h1>О нас</h1>
+        <p>Главная цель компании–сделать любой поход удобным,комфортным и безопасным. Поэтому нам доверяют уже свыше 1
+            миллиона людей по всему миру. Выбирайте нас и вы никогда не пожалеете об этом</p>
+    </div>
+</div>
+
+<div class="mt-100 search" id="search">
+    <div class="container">
+        <h1>Поиск</h1>
+        <form action="search.html" class="search-form">
+            <div class="form-attr">
+                <label for="date">Дата похода</label>
+                <input type="date" id="date" required>
+            </div>
+            <div class="form-attr">
+                <label for="region">Регион</label>
+                <select name="region" id="region" required>
+                    <option value="0" selected>
+                        Выберите
+                    </option>
+                    <option value="Абхазия">
+                        Абхазия
+                    </option>
+                    <option value="Калининград">
+                        Калининград
+                    </option>
+                    <option value="Крым">
+                        Крым
+                    </option>
+                </select>
+            </div>
+            <div class="form-attr">
+                <label for="people">Количество человек</label>
+                <input type="number" id="people" required min="1">
+            </div>
+            <div class="form-attr">
+                <label for="level">Уровень подготовки</label>
+                <select name="level" id="level" required>
+                    <option value="0" selected>
+                        Выберите
+                    </option>
+                    <option value="Малый">
+                        Малый
+                    </option>
+                    <option value="Средний">
+                        Средний
+                    </option>
+                    <option value="Высокий">
+                        Высокий
+                    </option>
+                </select>
+            </div>
+            <button type="submit">Поиск</button>
+        </form>
+    </div>
+</div>
+
+<div class="mt-100 feedback" id="feedback">
+    <div class="container">
+        <h1>Отзывы</h1>
+        <div class="card">
+            <img src="img/feedback/1.png" alt="feedback-photo">
+            <p>Что же можно сказать об этом туре?!
+                Да хотя бы то, что это лучший тур, который можно представить в Крыму! Здесь сочетается супер комфортное
+                проживание и нешуточные физические нагрузки, а ещё мягкий Крымский климат и живописные пейзажи круглый
+                год. (Алустон тур)</p>
+        </div>
+        <div class="card">
+            <img src="img/feedback/2.png" alt="feedback-photo">
+            <p>Красивый, сбалансированный маршрут. Грамотный, терпеливый и очень сильный инструктор. Хорошая, ровная
+                команда . Что ещё нужно для того чтобы поход удался? Немного везения с погодой. У нас было всё - и
+                трудности, и радости, и невероятная красота зимних гор! (Лыжный спортивный поход по Хибинам)</p>
+        </div>
+        <div class="card">
+            <img src="img/feedback/3.png" alt="feedback-photo">
+            <p>Такой отдых решили попробовать впервые. Поход удался на все 100%. Все ожидания оправдались. Тур очень
+                насыщенный и исторически познавательный. Если вы надеетесь отдохнуть и расслабиться, то это точно не
+                тут! (Загадки Восточной Пруссии)</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="mt-100 sub" id="sub">
+    <div class="container">
+        <h1>Подписка на рассылку</h1>
+        <form action="index.html">
+            <input type="email" placeholder="Email" required>
+            <button type="submit">Подписаться</button>
+        </form>
+    </div>
+</div>
+
+<div class="sales mt-100" id="sales">
+    <div class="container">
+        <h1>Акции</h1>
+        <div class="card">
+            <img src="img/sales/1.png" alt="sale-photo">
+            <div class="card-text">
+                <h2>1.Услуги проводника за полцены!</h2>
+                <p>Что же можно сказать об этом туре?!
+                    Да хотя бы то, что это лучший тур, который можно представить в Крыму! Здесь сочетается супер
+                    комфортное
+                    проживание и нешуточные физические нагрузки, а ещё мягкий Крымский климат и живописные пейзажи
+                    круглый
+                    год. (Алустон тур)</p>
+                <button>Подробнее</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/sales/2.png" alt="sale-photo">
+            <div class="card-text">
+                <h2>2.Трансфер до места начала похода - в подарок!
+                </h2>
+                <p>При условии бронирования похода на 3 человек одновременно, вы получаете трансфер в подарок.</p>
+                <button>Подробнее</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/sales/3.png" alt="sale-photo">
+            <div class="card-text">
+                <h2>3.Скидка 20% на следующее бронирование</h2>
+                <p>Мы рады предложить вам скидку на следующее бронирование, потому что дорожим нашими клиентами.</p>
+                <button>Подробнее</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<footer class="mt-100">
+    <div class="container">
+        <div class="nav-panel">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo/logo.svg" alt="logo">
+                </a>
+                <a class="tel" href="tel:+89119238284">+8911 923 82 84</a>
+            </div>
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html#aboutUs">О нас</a>
+                </li>
+                <li>
+                    <a href="index.html#search">Поиск</a>
+                </li>
+                <li>
+                    <a href="index.html#feedback">Отзывы</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="scripts/script.js"></script>
+</body>
+</html>

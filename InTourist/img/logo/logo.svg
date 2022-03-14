@@ -1,0 +1,14 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 218.29 122.79">
+  <title>logo</title>
+  <g>
+    <path d="M121.56,62.38a60.64,60.64,0,0,1-25.09,49.18L83,77.31,71.15,107.6,46,43.43,20.67,107.94A60.73,60.73,0,1,1,121.56,62.38Z" style="fill: #201600;stroke: #4060b2;stroke-miterlimit: 10"/>
+    <path d="M71.15,107.6l-6,15.36c-1.42.11-2.85.16-4.29.16a60.48,60.48,0,0,1-40.16-15.18L46,43.43Z" style="fill: #fff;stroke: #4060b2;stroke-miterlimit: 10"/>
+    <path d="M96.47,111.56a60.31,60.31,0,0,1-20,9.53A59.46,59.46,0,0,1,65.12,123l6-15.36L83,77.31Z" style="fill: #fff;stroke: #4060b2;stroke-miterlimit: 10"/>
+    <g>
+      <line x1="54.41" y1="46.73" x2="54.41" y2="64.3" style="fill: none;stroke: #4060b2;stroke-linecap: round;stroke-linejoin: round;stroke-width: 1.2895603824947557px"/>
+      <line x1="54.41" y1="46.73" x2="58.54" y2="50.87" style="fill: none;stroke: #4060b2;stroke-linecap: round;stroke-linejoin: round;stroke-width: 1.2895603824947557px"/>
+      <line x1="58.54" y1="50.87" x2="54.42" y2="54.99" style="fill: none;stroke: #4060b2;stroke-linecap: round;stroke-linejoin: round;stroke-width: 1.2895603824947557px"/>
+    </g>
+  </g>
+  <text transform="translate(133.47 68.24)" style="font-size: 20px;fill: #4060b2;font-family: OpenSans-Regular, Open Sans">InTourist</text>
+</svg>

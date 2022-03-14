@@ -1,0 +1,8 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <title>1</title>
+  <rect width="300" height="200" style="fill: #fff;stroke: #201600;stroke-miterlimit: 10"/>
+  <rect x="28.6" y="40.35" width="100.4" height="100.4" style="fill: #4060b2"/>
+  <rect x="163.18" y="40.35" width="100.4" height="100.4" style="fill: none;stroke: #201600;stroke-miterlimit: 10"/>
+  <text transform="translate(28.6 180.43)" style="font-size: 16px;font-family: OpenSans-Regular, Open Sans">Выберите маршруты из списка</text>
+  <polygon points="119.64 129.13 130.2 151.64 143.53 136.03 119.64 129.13" style="fill: #201600;stroke: #201600;stroke-miterlimit: 10"/>
+</svg>
