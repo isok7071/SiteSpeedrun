@@ -1,0 +1,248 @@
+@font-face {
+  font-family: "OpenSans Regular";
+  src: url("../Media/fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: "OpenSans Bold";
+  src: url("../Media/fonts/Open_Sans/OpenSans-Bold.ttf");
+}
+
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: "OpenSans Bold";
+  text-align: center;
+}
+h2 {
+  font-size: 24px;
+  font-family: "OpenSans Bold";
+}
+
+p {
+  font-size: 18px;
+  font-family: "OpenSans Regular";
+}
+
+a {
+  transition: 0.3s;
+  color: black;
+  text-decoration: none;
+  font-family: "OpenSans Regular";
+}
+a:hover {
+  transition: 0.3s !important;
+  color: #009ec6 !important;
+}
+
+button {
+  transition: 0.3s;
+  padding: 0;
+  cursor: pointer;
+  width: 120px;
+  height: 30px;
+  color: white;
+  border: 0;
+  background-color: #009ec6;
+  font-family: "OpenSans Regular";
+  font-size: 18px;
+}
+button:hover {
+  transition: 0.3s;
+  box-shadow: 0 0 13px 1px #009ec6;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.logo a img {
+  width: 197px;
+  max-width: 100%;
+}
+
+.nav-wrapper {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav {
+  width: 550px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav li a {
+  font-family: "OpenSans Bold";
+  font-size: 24px;
+}
+
+.main-text {
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+}
+.main-text h1 {
+  margin: 0;
+  padding-top: 250px;
+  font-size: 60px !important;
+}
+.bg {
+  background-image: url("../Media/img/acapulco-g31563f42a_1920.jpg");
+  height: 705px;
+  background-size: cover;
+}
+.slider {
+  text-align: center;
+}
+
+.slider img{
+    width: 0;
+    opacity: 0;
+    transition: .4s;
+}
+.slider img:first-child{
+    opacity: 1;
+    width: 240px;
+    display: block;
+    margin: 0 auto;
+}
+.slider button{
+    margin-top: 20px;
+}
+.slider button:first-of-type{
+    margin-right: 30px;
+
+}
+.about-us {
+  text-align: center;
+}
+
+.search form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.form-attr {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.search .form-attr label,
+input,
+select {
+  font-size: 18px;
+  font-family: "OpenSans Regular";
+}
+.search .form-attr input,
+select {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  width: 150px;
+  height: 30px;
+}
+.sale h1 {
+  padding-bottom: 40px;
+}
+.sale-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 60px;
+  margin-bottom: 50px;
+}
+.sale-item .sale-text {
+  padding-left: 30px;
+}
+.sale-item img {
+  width: 200px;
+  height: fit-content;
+}
+
+.feedback-item {
+  padding-left: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+.feedback-item p {
+  padding-left: 40px;
+}
+
+footer {
+  background-color: black;
+  height: 100px;
+}
+
+footer .nav-wrapper a {
+  color: white !important;
+}
+
+/*search.html*/
+
+.search-item {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-item img {
+  width: 250px;
+  height: 250px;
+  padding-right: 70px;
+}
+.search-item button {
+  width: 180px;
+}
+
+.search-item p {
+  padding: 0;
+  margin: 0;
+}
+.search-item .price {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.price {
+  font-family: "OpenSans Bold";
+  color: #009ec6;
+}
+
+/*seat.html*/
+
+.seat-choose ul li {
+  font-family: "OpenSans Regular";
+  font-size: 18px;
+}
+.booking-button {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+/*booking.html*/
+.booking p{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 24px !important;
+}

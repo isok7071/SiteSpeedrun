@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>HotelBooking</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="index.html"> 
+                        <img src="Media/img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <ul class="nav">
+                    <li>
+                        <a href="index.html#search">
+                            Поиск
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#sales">
+                            Акции
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#feedback">
+                            Отзывы
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main-text">
+            <div class="bg">
+                <h1>
+                    Наша цель – обеспечить
+                    лучший опыт в бронировании
+                </h1>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="mt-100 container">
+        <h1>Как забронировать номер?</h1>
+        <div class="slider">
+            <div class="slides">
+                <img src="Media/img/slider/1.svg" alt="infografika">
+                <img src="Media/img/slider/2.svg" alt="infografika">
+                <img src="Media/img/slider/3.svg" alt="infografika">
+                <img src="Media/img/slider/4.svg" alt="infografika">
+            </div>
+            <button class="prev">Назад</button>
+            <button class="next">Вперед</button>
+        </div>
+    </div>
+
+
+    <div class="mt-100 container">
+        <h1>О компании</h1>
+        <div class="about-us">
+            <p>Мы лидируящая компания в области бронирования отелей, и занимаем первое место по количеству заказов через
+                нашу систему. Нам доверяют уже свыше 20 миллионов пользователей по всему земному шару!</p>
+        </div>
+    </div>
+
+    <div class="mt-100 container">
+        <div class="search" id="search">
+            <h1>Поиск</h1>
+            <form action="search.html" method="get">
+                <div class="form-attr">
+                    <label for="date-in">Дата заезда</label>
+                    <input required type="date" id="date-in" name="date-in">
+                </div>
+                <div class="form-attr">
+                    <label for="date-out">Дата отъезда</label>
+                    <input required type="date" id="date-out" name="date-out">
+                </div>
+                <div class="form-attr">
+                    <label for="country">Страна</label>
+                    <input required type="text" id="country" name="country">
+                </div>
+                <div class="form-attr">
+                    <label for="stars">Количество звезд</label>
+                    <select id="stars">
+                        <option value="0">
+                            Выбрать
+                        </option>
+                        <option value="1">
+                            1 звезда
+                        </option>
+                        <option value="2">
+                            2 звезды
+                        </option>
+                        <option value="3">
+                            3 звезды
+                        </option>
+                        <option value="4">
+                            4 звезды
+                        </option>
+                        <option value="5">
+                            5 звезд
+                        </option>
+                    </select>                    
+                </div>
+                <div class="form-attr">
+                    <label for="people">Страна</label>
+                    <input required type="text" id="people" name="people">
+                </div>
+                <button type="submit">Поиск</button>
+            </form>
+        </div>
+    </div>
+    
+    <div class="mt-100 container">
+        <h1>Акции</h1>
+        <div class="sales" id="sales">
+            <div class="sale-item">
+                <img src="Media/img/1.jpg" alt="sale">
+                <div class="sale-text">
+                    <h2>10% на все отели</h2>
+                    <p>10% скидка на все отели для новых клиентов</p>
+                    <button>Подробнее</button>
+                </div>
+            </div>
+            <div class="sale-item">
+                <img src="Media/img/2.png" alt="sale">
+                <div class="sale-text">
+                    <h2>50% для 100 пользователя</h2>
+                    <p>50% скидка на все отели для 100 пользователя сайта в день</p>
+                    <button>Подробнее</button>
+                </div>
+            </div>
+            <div class="sale-item">
+                <img src="Media/img/3.png" alt="sale">
+                <div class="sale-text">
+                    <h2>5% для постоянных покупателей</h2>
+                    <p>5% скидка на все отели для постоянных покупателей</p>
+                    <button>Подробнее</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-100">
+        <h1>Отзывы</h1>
+        <div class="feedback" id="feedback">
+            <div class="feedback-item">
+                <img src="Media/img/feedback/1.jpg" alt="feedback-photo">
+                <p>Самый лучший сайт по бронированию отелей</p>
+            </div>
+            <div class="feedback-item">
+                <img src="Media/img/feedback/2.jpg" alt="feedback-photo">
+                <p>Спасибо за прекрасный опыт при бронированни</p>
+            </div>
+            <div class="feedback-item">
+                <img src="Media/img/feedback/3.jpg" alt="feedback-photo">
+                <p>Спасибо за прекрасно оказанныек услуги!</p>
+            </div>
+            <div class="feedback-item">
+                <img src="Media/img/feedback/4.jpg" alt="feedback-photo">
+                <p>Спасибо за прекрасно оказанныек услуги!</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-100">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="Media/img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <ul class="nav">
+                    <li>
+                        <a href="index.html#search">
+                            Поиск
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#sales">
+                            Акции
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#feedback">
+                            Отзывы
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

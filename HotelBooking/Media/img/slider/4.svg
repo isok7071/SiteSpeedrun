@@ -1,0 +1,12 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <title>4</title>
+  <g>
+    <g>
+      <rect width="300" height="200" style="fill: #fff;stroke: #201600;stroke-miterlimit: 10"/>
+      <text transform="translate(59.55 174.88)" style="font-size: 18px;font-family: OpenSans-Regular, Open Sans">Забронируйте номер</text>
+      <polygon points="227.55 123.75 221.88 129.41 218.14 120.01 214.41 110.61 223.81 114.34 233.21 118.08 227.55 123.75" style="fill: #201600;stroke: #201600;stroke-miterlimit: 10;stroke-width: 1.2455272674560547px"/>
+    </g>
+    <rect x="84.52" y="71.76" width="125.65" height="43.29" style="fill: #009ec6"/>
+    <text transform="translate(91.11 99.82)" style="font-size: 15px;fill: #fff;font-family: OpenSans-Regular, Open Sans">Забронировать</text>
+  </g>
+</svg>
